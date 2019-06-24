@@ -1,0 +1,24 @@
+.visible
+{
+visibility: visible;
+opacity: 1;
+transition: opacity 1s linear;
+}
+
+.hidden
+{
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s 2s, opacity 1s linear;
+}
+
+#map {
+position: unset !important;
+}
+
+#spinner
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
